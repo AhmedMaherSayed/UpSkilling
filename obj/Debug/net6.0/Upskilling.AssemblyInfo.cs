@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Upskilling")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac40c513acccdcaae878b07ba7a7706ed43f86fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Upskilling")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Upskilling")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -66,3 +66,4 @@ C:\Users\Mezo\Desktop\Upskilling\Upskilling\obj\Debug\net6.0\refint\Upskilling.d
 C:\Users\Mezo\Desktop\Upskilling\Upskilling\obj\Debug\net6.0\Upskilling.pdb
 C:\Users\Mezo\Desktop\Upskilling\Upskilling\obj\Debug\net6.0\Upskilling.genruntimeconfig.cache
 C:\Users\Mezo\Desktop\Upskilling\Upskilling\obj\Debug\net6.0\ref\Upskilling.dll
+C:\Users\Mezo\Desktop\Upskilling\Upskilling\obj\Debug\net6.0\Upskilling.sourcelink.json

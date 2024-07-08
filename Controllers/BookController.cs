@@ -19,9 +19,9 @@ namespace Upskilling.Controllers
             var books = Db.Books.Include(b => b.Category).AsNoTracking().ToList();
 
             var BookCatDTO = new List<BookWithCategory>();
-            foreach(var book in books)
+            foreach (var book in books)
             {
-                BookCatDTO.Add(new BookWithCategory() 
+                BookCatDTO.Add(new BookWithCategory()
                 {
                     BookId = book.BookId,
                     BookName = book.Name,
@@ -47,7 +47,7 @@ namespace Upskilling.Controllers
         public IActionResult GetBookById(int id)
         {
             var book = Db.Books.Include(b => b.Category).AsNoTracking().FirstOrDefault(b => b.BookId == id);
-            if(book is not null)
+            if (book is not null)
             {
                 var BookCategoryDTO = new BookWithCategory()
                 {
@@ -71,7 +71,7 @@ namespace Upskilling.Controllers
         [HttpPost]
         public IActionResult Add(Book book)
         {
-            if(book is not null)
+            if (book is not null)
             {
                 Db.Books.Add(book);
                 Db.SaveChanges();
@@ -84,7 +84,7 @@ namespace Upskilling.Controllers
         }
 
 
-        [HttpPut]
+        [HttpPut("{id:int}")]
         public IActionResult Update(int id, [FromBody]Book book)
         {
             if(ModelState.IsValid == true)
